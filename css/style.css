@@ -1,0 +1,291 @@
+.header{
+	background: #B1DAEA;
+}
+
+.container{
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.container_header{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.logo{
+margin-top: 28px;
+font-family: 'Ribeye Marrow';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 87px;
+text-align: center;
+
+color: #01556A;
+}
+.nav{
+	margin: auto 0;
+}
+.nav_list{
+	display: flex;
+	text-decoration: none;
+	color: #01556A;
+}
+.nav_item{
+	margin-right: 42px;
+	list-style: none;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+margin-top: auto;
+margin-bottom: auto;
+}
+/*--------------HERO-BLOCK--------------*/
+.hero-block{
+background-color: #B1DAEA;
+}
+.container_hero-block{
+	display: flex;
+	justify-content: space-around;
+}
+.hero_block_images{
+	width: 350px;
+	height: 233px;
+}
+.hero_block_title{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 164.06%;
+/* or 79px */
+margin-bottom: 26px;
+color: #01556A;
+}
+.hero_block_text{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 164.06%;
+/* or 33px */
+max-width: 523px;
+
+color: #3B97B6;
+}
+.hero_block_button{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+background: #01556A;
+max-width: 225px;
+}
+/*--------Квадраты----------*/
+.squre{
+	display: flex;
+	justify-content: space-around;
+	margin-top: ;
+}
+
+.sq{
+	height: 42px;
+	width: 160px;
+}
+
+/*------------------ABOUT------------------*/
+.about{
+	background: #B1DAEA;
+}
+
+.container_about{
+	padding: 150px 0 199px 0;
+}
+
+.about_title{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+text-align: center;
+
+color: #01556A;
+}
+
+.about_text{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 164.06%;
+
+text-align: center;
+
+color: #3B97B6;
+}
+
+.about_content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.skills{
+	width: 445px;
+}
+
+.skills_title{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+color: #01556A;
+}
+
+.skills_name{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 164.06%;
+color: #3B97B6;
+}
+
+.skills_list{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.grey_line1{
+background-color: grey;
+height: 4px;
+width: 445px;
+}
+
+.blue_line1{
+	background-color: #34547A;
+	height: 4px;
+	width: 400px;
+}
+
+.grey_line2{
+background-color: grey;
+height: 4px;
+width: 445px;
+}
+
+.blue_line2{
+	background-color: #34547A;
+	height: 4px;
+	width: 360px;
+}
+
+.grey_line3{
+background-color: grey;
+height: 4px;
+width: 445px;
+}
+
+.blue_line3{
+	background-color: #34547A;
+	height: 4px;
+	width: 420px;
+}
+/*------------------VIDEO------------------*/
+.video{
+	background: #B1DAEA;
+}
+.video_title{
+	margin-top: 0px;
+	text-align: center;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #01556A;
+padding-top: 120px;
+}
+.video_text{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 164.1%;
+/* or 33px */
+
+text-align: center;
+
+color: #3B97B6;
+margin-top: 50px;
+}
+.youtube_video{
+	padding-bottom: 180px;
+}
+/*------------------GALLERY------------------*/
+.gallery_list{
+	margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery_item{
+	list-style: none;
+	width: 25%;
+	margin-bottom: -10px;
+}
+
+.gallery_img{
+	width: 100%;
+}
+/*------------------FOOTER------------------*/
+.footer{
+	background: #85C8DE;
+}
+.all_about{
+	display: flex;
+	justify-content: space-around
+}
+.footer_title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+
+color: #FFFFFF;
+}
+.footer_text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+.footer_images{
+	display: flex;
+}
+.footer_images_item{
+	list-style: none;
+}
