@@ -18,23 +18,29 @@
 </head>
 
 <body>
-<header class="header">
+<header id="header" class="header">
 	<div class="container container_header">
 		<h1 class="logo">AR</h1>
          <nav class="nav">
          	<ul class="nav_list">
-         		<li class="nav_item"><a href="#" class="nav_list">ГЛАВНАЯ</a></li>
-         		<li class="nav_item"><a href="#" class="nav_list">ОБ АВТОРЕ</a></li>
-         		<li class="nav_item"><a href="#" class="nav_list">РАБОТЫ</a></li>
-         		<li class="nav_item"><a href="#" class="nav_list">ПРОЦЕСС</a></li>
-         		<li class="nav_item"><a href="#" class="nav_list">КОНТАКТЫ</a></li>
+         		<li class="nav_item"><a href="#hero-block" class="nav_list">ГЛАВНАЯ</a></li>
+         		<li class="nav_item"><a href="#about" class="nav_list">ОБ АВТОРЕ</a></li>
+         		<li class="nav_item"><a href="#video" class="nav_list">РАБОТЫ</a></li>
+         		<li class="nav_item"><a href="#gallery" class="nav_list">ПРОЦЕСС</a></li>
+         		<li class="nav_item"><a href="#footer" class="nav_list">КОНТАКТЫ</a></li>
          	</ul>
          </nav>
+         <button class="burger">
+         	<div class="burger_line"></div>
+         	<div class="burger_line"></div>
+         	<div class="burger_line"></div>
+         </button>
+         
 	</div>
 </header>
 
 <main class="main">
-	<section class="hero-block">
+	<section id="hero-block" class="hero-block">
        <div class="container container_hero-block">
       	<img class="hero_block_images" src="image/computer.png" />
        <div class="hero_block_content">
@@ -50,7 +56,7 @@
    <div class="sq white"></div>
    </div>
 	</section>
-<section class="about">
+<section id="about" class="about">
 	<div class="container container_about">
 		<h2 class="about_title">О себе</h2>
 		<p class="about_text">Здесь можно увидеть немного информации обо мне</p>
@@ -68,7 +74,7 @@
 	</div>
 </section>
 
-<section class="video">
+<section id="video" class="video">
 	<div class="container">
 		<h2 class="video_title">Подробнее</h2>
 		<p class="video_text">Здесь можно увидеть подробности о Web-разработке и также о моих проектах и информации что я могу сделать.</p>
@@ -76,7 +82,7 @@
 	</div>
 </section>
 
-<section class="gallery">
+<section id="gallery" class="gallery">
 	<ul class="gallery_list">
 		<li class="gallery_item">
 			<a href="image/gal1.png" class="lightzoom">
@@ -125,7 +131,7 @@
 
 </main>
 
-<footer class="footer">
+<footer id="footer" class="footer">
 	<div class="all_about">
 		<div class="footer_left">
 			<h2 class="footer_title">Рябович Артем</h2>
